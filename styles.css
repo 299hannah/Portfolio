@@ -1,3 +1,4 @@
+/* styles */
 body{
     font-family:  Helvetica;
     margin:0px;
@@ -6,6 +7,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
+/* nav styles */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -36,3 +38,4 @@ body{
 .nav-link a:hover{
     color: black;
 }
+/* portfolio styles */
