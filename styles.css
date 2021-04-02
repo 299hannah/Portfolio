@@ -12,9 +12,15 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 38px;
+   text-decoration: none;
+
 }
 .left{
     display: flex;
+    
+}
+.brand{
+    text-align: right;
 }
 .nav > .left >div{
     margin-right: 20px;
@@ -39,3 +45,64 @@ body{
     color: black;
 }
 /* portfolio styles */
+.portfolio-items{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;  */
+     flex-direction: row;
+     float: left;
+     width: 33%;
+    height: 350px;
+    /* color: transparent; */
+
+    
+}
+
+.portfolio-item{
+    position: relative;
+    
+}
+
+.portfolio-img{
+   
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  
+} 
+ .img-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+} 
+.img-text .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.img-text:hover .subtitle{
+    font-weight: 600;
+    color:blue;
+    text-align: center;
+    
+}
+.img-dark {
+    transition: 1s;
+    filter: brightness(10%);
+} 
+
+/* About */
+.column{
+    
+}
+
+
