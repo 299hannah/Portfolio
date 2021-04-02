@@ -13,10 +13,17 @@
         <div class="nav">
             <div class="left">
                 <div class="nav-link">
+                    
                     <a href="index.html">Home</a>
+                    
                 </div>
                 <div class="nav-link">
-                    <a href="index.html">About</a>
+                   
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-link">
+                   
+                    <a href="projects.html">My Projects</a>
                 </div>
             </div>
             <div class="right">
@@ -26,6 +33,191 @@
             </div>
         </div>
     </div>
-</body>
 
+    <div class="content">
+        <div class="portfolio-items">
+
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background-image:url(images/setup.jpg)"></div>
+                </div>
+
+                <div class="img-text">
+                   <div class="subtitle">
+                        Happy coding
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="content">
+                <div class="portfolio-items">
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-img" style="background-image:url(images/comp2.jpg)"></div>
+                    </div>
+
+                    <div class="img-text">
+                        <div class="subtitle">
+                            Happy coding
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="content">
+                    <div class="portfolio-items">
+    
+                        <div class="portfolio-item">
+                            <div class="portfolio-img" style="background-image:url(images/me1.jpg)"></div>
+                        </div>
+    
+                        <div class="img-text">
+                            <div class="subtitle">
+                                Happy coding
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+                    <div class="content">
+                        <div class="portfolio-items">
+        
+                            <div class="portfolio-item">
+                                <div class="portfolio-img" style="background-image:url(images/comp3.jpg)"></div>
+                            </div>
+        
+                            <div class="img-text">
+                                <div class="logo">
+                                    <!-- <img src="images/comp3.jpg" alt="coding"> -->
+                                </div>
+        
+                                <div class="subtitle">
+                                    Happy coding
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="content">
+                            <div class="portfolio-items">
+            
+                                <div class="portfolio-item">
+                                    <div class="portfolio-img" style="background-image:url(images/comp.jpg)"></div>
+                                </div>
+            
+                                <div class="img-text">
+                                    <div class="logo">
+                                        <!-- <img src="images/comp3.jpg" alt="coding"> -->
+                                    </div>
+            
+                                    <div class="subtitle">
+                                        Happy coding
+                                    </div>
+            
+                                </div>
+            
+                            </div>
+
+                            <div class="content">
+                                <div class="portfolio-items">
+                
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img" style="background-image:url(images/easy.jpg)"></div>
+                                    </div>
+                
+                                    <div class="img-text">
+                                        <div class="logo">
+                                            <!-- <img src="images/comp3.jpg" alt="coding"> -->
+                                        </div>
+                
+                                        <div class="subtitle">
+                                            Happy coding
+                                        </div>
+                
+                                    </div>
+                
+                                </div>
+
+                                <div class="content">
+                                    <div class="portfolio-items">
+                    
+                                        <div class="portfolio-item">
+                                            <div class="portfolio-img" style="background-image:url(images/comp1.jpg)"></div>
+                                        </div>
+                    
+                                        <div class="img-text">
+                                            <div class="logo">
+                                                <!-- <img src="images/comp3.jpg" alt="coding"> -->
+                                            </div>
+                    
+                                            <div class="subtitle">
+                                                Happy coding
+                                            </div>
+                    
+                                        </div>
+                    
+                                    </div>
+
+                                    <div class="content">
+                                        <div class="portfolio-items">
+                        
+                                            <div class="portfolio-item">
+                                                <div class="portfolio-img" style="background-image:url(images/exercise.jpg)"></div>
+                                            </div>
+                        
+                                            <div class="img-text">
+                                                <div class="logo">
+                                                    <!-- <img src="images/comp3.jpg" alt="coding"> -->
+                                                </div>
+                        
+                                                <div class="subtitle">
+                                                    Happy coding
+                                                </div>
+                        
+                                            </div>
+                        
+                                        </div>
+                                        <div class="content">
+                                            <div class="portfolio-items">
+                            
+                                                <div class="portfolio-item">
+                                                    <div class="portfolio-img" style="background-image:url(images/study.jpg)"></div>
+                                                </div>
+                            
+                                                <div class="img-text">
+                        
+                                                    <div class="subtitle">
+                                                        Happy coding
+                                                    </div>
+                            
+                                                </div>
+                            
+                                            </div>
+                                        
+
+
+
+        </div>
+    </div>
+
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item')
+
+    portfolioItems.forEach(portfolioItem =>{
+        portfolioItem.addEventListener('mouseover', () =>{
+            
+            portfolioItem.childNodes[1].classList.add('img-dark');
+            
+            
+        })
+
+        portfolioItem.addEventListener('mouseout', () =>{
+            
+            portfolioItem.childNodes[1].classList.remove('img-dark');
+            
+        })
+    })
+</script>
 </html>
