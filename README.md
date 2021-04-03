@@ -17,8 +17,9 @@ This will clone the repositoty into your local folder
 ### Technologies Used
  HTML
  CSS
- Git()
+ Javascript
+ Git
 ### Live Site
-View [live](https://299hannah.github.io/My_favorite_band_project/)
+View [live](https://299hannah.github.io/Portfolio/.)
 Licence
 This project is under the [MIT licence](licence)
