@@ -60,7 +60,7 @@ body{
     /* grid-template-columns: 1fr 1fr 1fr;  */
      flex-direction: row;
      float: left;
-     width: 33%;
+     width: 33.33%;
     height: 350px;
     /* color: transparent; */
 
@@ -138,6 +138,14 @@ body{
 .projects h1{
     color:lightseagreen
 
+}
+.footer{
+    padding-top:20px;
+    /* margin-top: 20px; */
+    color: #ffffff;
+    background-color: sienna;
+    text-align: center;
+    text-decoration: none;
 }
 
 
