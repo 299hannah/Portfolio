@@ -1,76 +1,96 @@
-*{
-    font-family:  Helvetica;
-    margin:0px;
+* {
+    font-family: Helvetica;
+    margin: 0 px;
+    box-sizing: border-box;
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
-   
+
 }
-/* .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
+
+.proj-title h2 {
+    color: lightseagreen;
+    text-align: center;
+}
+
+.proj-title p {
+    text-align: center;
+}
+
 /* nav styles */
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 38px;
-   text-decoration: none;
+    text-decoration: none;
 
 }
-.left{
+
+.left {
     display: flex;
-    
+
 }
-.brand{
+
+.brand {
     text-align: right;
 }
-.nav > .left >div{
+
+.nav>.left>div {
     margin-right: 20px;
     font-size: 15px;
     text-transform: uppercase;
 }
-.nav-link{
+
+.nav-link {
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 
 }
+
 .nav-link a {
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     border-bottom: 1px solid black;
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
     color: black;
 }
+
 .active {
     border-bottom: 1px solid black;
 }
-.active a{
+
+.active a {
     color: black !important;
 }
-.subtitle a{
+
+.subtitle a {
     text-decoration: none;
     color: lightseagreen;
 }
 
-  /* Create three equal columns that floats next to each other */
-   .column {
-       display: grid;
-       /* grid-template-columns: 1fr 1fr 1fr; */
+/* Create three equal columns that floats next to each other */
+.column {
+
     float: left;
     width: 33.33%;
-    /* display: inline; */
+
     padding: 10px;
-    height: 400px; /* Should be removed. Only for demonstration */
-} 
-  
-/* Clear floats after the columns */
- .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} 
+    height: 400px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: sienna;
+    text-align: center;
+    text-decoration: none;
+}
