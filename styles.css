@@ -148,17 +148,18 @@ body{
     text-decoration: none;
 }
 
-@media(max-width:765px) and (min-width:450px){
+@media(max-width:765px){
     
-    .content .subtitle{
-       
-        text-align:center;
-        width:100%;
-        display: flex;
- }
+    .container .content .subtitle{
+        /* float:none; */
+        /* text-align:center; */
+        /* width:100%; */
+    /* }
+    nav{
+        padding-bottom :20px;
+    }
+    #showcase h2{
+        margin-top: 40px;
+    }   
+} */
 
-    } 
-    .footer{
-        margin-top: 30%;
-    }  
-} 
