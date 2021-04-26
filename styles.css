@@ -148,4 +148,17 @@ body{
     text-decoration: none;
 }
 
+@media(max-width:765px) and (min-width:450px){
+    
+    .content .subtitle{
+       
+        text-align:center;
+        width:100%;
+        display: flex;
+ }
 
+    } 
+    .footer{
+        margin-top: 30%;
+    }  
+} 
